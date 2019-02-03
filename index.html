@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Platform Game</title>
+    <link rel="stylesheet" href="./src/css/game.css">
+    <script defer src="./src/js/game.js"></script>
+    <script defer src="./src/js/display.js"></script>
+    <script defer src="./src/js/model/Vec.js"></script>
+    <script defer src="./src/js/model/Player.js"></script>
+    <script defer src="./src/js/model/Lava.js"></script>
+    <script defer src="./src/js/model/Coin.js"></script>
+    <script defer src="./src/js/model/Level.js"></script>
+    <script defer src="./src/js/model/State.js"></script>
+</head>
+<body>
+
+</body>
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+        // let simpleLevel = new Level(simpleLevelPlan);
+        // let display = new DOMDisplay(document.body, simpleLevel);
+        // display.syncState(State.start(simpleLevel));
+
+        runGame([ simpleLevelPlan ], DOMDisplay);
+    });
+</script>
+</html>
